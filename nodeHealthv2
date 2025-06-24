@@ -1,0 +1,17 @@
+#!/bin/bash
+
+###############################
+# Author: Muzammil
+# Date: 24//06/25
+#
+# This scropt outputs the node health
+# Version: v2
+################################
+
+set -x
+
+df -h
+
+free -g
+
+nproc
