@@ -8,7 +8,7 @@
 # Version: v2
 ################################
 
-set -x
+set -x       #debug mode
 
 df -h
 
