@@ -15,3 +15,5 @@ df -h
 free -g
 
 nproc
+
+ps -ef | grep amazon | awk '{print $2}'        #gets the process ID of amazon pocess running on your linux machine
