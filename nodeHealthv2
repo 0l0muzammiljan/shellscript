@@ -8,7 +8,7 @@
 # Version: v2
 ################################
 
-set -x                                        #enables a shell mode where all executed commands are printed to the terminal.
+set -x                                        #enables a shell mode where all executed commands are printed to the terminal
 set -e                                        #exits the script when there is an error
 set -o pipefail   
 df -h
